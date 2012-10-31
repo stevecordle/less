@@ -57,7 +57,7 @@ class LessHelper extends AppHelper
 			'output_directory' => 'ccss/'
 		);
 		
-		$options = array_merge($options, $defaults);
+		$options = array_merge($defaults, $options);
 		
 		$debug = Configure::read('debug');
 		
