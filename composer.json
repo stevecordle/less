@@ -1,0 +1,19 @@
+{
+  "name": "stevecordle/less",
+  "description": "An asset compression plugin for CakePHP. Provides file concatenation and a flexible filter system for preprocessing and minification.",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "less"],
+  "homepage": "https://github.com/stevecordle/less",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Auld",
+      "homepage": "http://www.benauld.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "composer/installers": "*"
+  }
+}
